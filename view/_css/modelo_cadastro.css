@@ -1,0 +1,184 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/02/2016, 13:57:46
+    Author     : MichaelDydean
+*/
+/*
+Atualizado em 29/02/2016.
+*/
+@charset "UTF-8";
+
+main {
+    width: 50%;
+    margin-left: 22%;
+}
+fieldset {
+    width: 55vw;
+    padding: 3vw;
+    /* border: 1px solid rgb(245,245,245);*/
+
+}
+#img_home_cadastro {
+  top: 15px;
+  right: 15px;
+  position: absolute;
+}
+/*
+#fieldset_dados_usuario {
+    border: 1px solid green;
+}*/
+#fieldset_endereco {
+    /* border: 1px solid black;*/
+    width: 50vw;
+}
+#fieldset_outras_info {
+    /* border: 1px solid blue;*/
+    width: 23vw;
+    margin-left: 13vw;
+    padding-bottom: 1vw;
+}
+legend {
+    text-align: center;
+    border: #fff;
+}
+label {
+    width: 15vw;
+    height: 4vh;
+    /* border: 1px solid black;*/
+    margin-left: 10%;
+}
+.label_radius {
+    width: 10vw;
+    margin-left: 0vw;
+}
+.input_radius {
+    width: 2.5vw;  
+}
+#label_data {
+
+}
+#date_I {
+    width: 20vw;
+}
+#foto_usu_cadastro {
+    position: relative;
+    width: 18vw;
+    height: 28vh;
+    border: 2px solid #cecece;
+    box-shadow: 1px 1px 1px #e2e2e2;
+}
+#foto_I {
+    font-size: 0.6em;
+    margin-left: 0vw;
+}
+#frase_verif {
+    text-align: center;
+}
+#text_area {
+width: 60%;
+margin-left: 20%;
+font-size: 11pt;
+resize: none;
+}
+#termos_contrato_id {
+    margin-left: 6.5vw;
+}
+#label_termo {
+    margin-left: 0vw;
+    padding-bottom: 3vw;
+}
+#confirmacao_cadastro_id {
+    width: 30%;  
+    font-size: 90%;
+    margin-left: 8vw; 
+}
+#reseta_cadastro_id {
+    width: 30%;  
+    margin-left: 3vw; 
+    font-size: 90%;
+}
+@media screen and (max-width: 900px) {
+    label {
+        margin-left: 0%;
+        font-size: 0.8em;
+    }   
+}
+@media screen and (max-width: 900px) and (min-width: 500px){
+    fieldset {
+        width: 50vw;
+    }
+    label {
+        clear: both;
+        width: 100%;
+    }
+    #label_termo {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 500px) and (min-width: 350px){
+    main {
+        margin-left: 6%;
+        margin-right: 1%;
+    }
+    fieldset {
+        width: 80vw;
+    }
+    input {
+        width: 80%;
+    }
+    label {
+        clear: both;
+        width: 100%;
+    }
+    #label_termo {
+        width: 60%;
+    }
+    #date_I {
+        width: 45vw;
+    }
+    #foto_I {
+        width: 60vw;
+    }
+}
+@media screen and (max-width: 350px) {
+    main {
+        margin: 1%;
+    }
+    input {
+        width: 70vw;
+    }
+    fieldset {
+        width: 85vw;
+    }
+    label {
+        clear: both;
+        width: 80%;
+    }
+    #label_termo {
+        width: 60%;
+    }
+    #date_I {
+        width: 60vw;
+    }
+    #label_sexo {
+        width: 100%;
+    }
+    .label_radius {
+        width: 30vw;
+    }
+    #confirmacao_cadastro_id {
+        width: 40%;  
+    }
+    #reseta_cadastro_id {
+        width: 40%;  
+    }
+}
+@media screen and (min-height: 150px) and (max-height: 350px){
+    label {
+        height: 6vh;
+    }   
+}

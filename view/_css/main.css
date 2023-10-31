@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/05/2016, 11:13:49
+    Author     : MichaelDydean
+*/
+/*
+Atualizado em 17/05/2016.
+*/
+@charset "UTF-8";
+/*
+*{
+    remove selecão de texto
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+*/
+/*formatação do corpo da página*/
+body {
+    overflow-x: hidden;/*torna invisível o scroll horizontal*/
+}
+hr {
+    border-top: 1.4vh solid #dedede;
+    border-radius: 90%;
+}
+/*formatação da logo*/
+#logo_slide {
+    margin-left: 10%;
+    left: 0.489vw;/*é igua a 10px*/
+    position: fixed;
+    float: left;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    cursor: default;/*ponteiro de seta*/
+}
+#logo_slide h1 {
+    top: -3vh;
+    position: fixed;
+    font-size: 2em;
+    color:#808080; letter-spacing:-1px; font-weight:normal;}
+span#titulo_forum {
+    font-size: 1em;
+    color:#444; font-weight:bold;}
+#logo_slide h2 {
+    top: 2.5vh;position: fixed;color:#444; font-size:0.7em; margin-left: 14px;}
+/*formatação do rodapé*/
+#rodape p {
+    text-align: center;
+    color: rgb(110,110,110);
+    cursor: default;/*ponteiro de seta*/
+}
+
+/*formatação da logo marca para adaptaão do tamanho de largura da tela*/
+@media screen and (max-height: 500px){#logo_slide h2 {color:#fff;}}
+@media screen and (min-height: 490px) and (max-height: 550px){#logo_slide h2 {top: 2vh;}}
+@media screen and (min-height: 450px) and (max-height: 490px){#logo_slide h2 {top: 2vh;}}
+@media screen and (min-height: 330px) and (max-height: 450px){#logo_slide h2 {top: 3vh;}}
+@media screen and (min-height: 150px) and (max-height: 330px){#logo_slide h2 {top: 5vh;}}
+@media screen and (min-height: 100px) and (max-height: 150px){#logo_slide h2 {top: 15vh;}}

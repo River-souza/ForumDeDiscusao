@@ -1,0 +1,72 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28/02/2016, 13:01:05
+    Author     : MichaelDydean
+*/
+/*
+Atualizado em 28/02/2016.
+*/
+@charset "UTF-8";
+
+#quadro_coments {
+    width: 67%;
+    margin-top: 2vh;
+    margin-left: 16%;
+    border-radius: 7px;
+    background-color: rgba(249, 249, 249, 0.9);
+}
+#quadro_coments p {
+    margin-bottom: 0vw;
+}
+#quadro_coments footer {
+    padding-top: 8px;
+}
+#coments_texto {
+    padding: 1.3vw;
+    background-color: rgba(245, 245, 245, 0.9);
+    border-radius: 8px;
+}
+#num_coments {
+    margin-left: 15%;
+}
+/*formatação do texto do post ue informa indisponibilidade*/
+#texto_nao {
+    font-size: 15pt;
+    color: #d9534f;
+    text-align: center;
+    margin-top: 20vh;
+}
+.dado_comentario {
+    width: 290px;
+    height: 33px;
+    font-size: 13pt;
+    text-align: justify;
+}
+#text_fazer_com {
+    width: 50%;
+    margin-top: 2vh;
+    margin-left: 16%;
+   text-indent: 0.7vw;
+}
+#botao_comentar {
+    text-shadow: 0.1px 0.1px 0.1px #808080;
+    cursor: pointer;/*coloca o ponteiro de mão*/
+}
+#quadro_img_usu_coments {
+    width: 5vw;
+    height: 8vh;
+    border: 1px solid black;
+    border-radius: 100%;
+    background: rgb(190, 190, 190);
+    float: left;
+    margin-left: 1vw;
+    margin-right: 2.3vw;
+}
+#comentar {
+    
+}
+

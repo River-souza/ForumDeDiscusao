@@ -1,0 +1,97 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06/02/2016, 18:19:42
+    Author     : MichaelDydean
+*/
+/*
+Atualizado em 29/02/2016.
+*/
+@charset "UTF-8";
+
+/*formatação do link cadastro*/
+#link_cadastro {
+    text-align: right;
+    margin-bottom: 0vw;
+    padding-bottom: 0.67vw;
+}
+#link_cadastro a {
+    text-decoration: none;
+    font-style: italic;
+    color: #cccccc;
+}
+#link_cadastro a:hover {
+    color: white;
+}
+/*formatação da sessao com formulário de busca*/
+#form_busca {
+    position: absolute;
+    top: 65px;
+    left: 0px;
+    width: 340px;
+    height: 63px;
+    padding: 10px;
+    background-color: #222;
+    transition: right 0.4s linear;
+    /*display: none;*/
+    border-radius: 10%;
+    border: 0.5vw solid #262626;
+}
+#buscar_txt {
+    width: 220px;
+    height: 33px;
+}
+#btn_busca {
+    width: 36px;
+    height: 38px;
+    text-shadow: 0.1px 0.1px 0.1px #808080;
+    cursor: pointer;/*coloca o ponteiro de mão*/
+    background: url('../_imagem/pesq.png') no-repeat;
+    background-color: rgba(245,245,245,0.9);
+    border-radius: 16px;
+    padding: 2px;
+
+}
+@media screen and (max-width: 767px) {
+    /*formataão do link cadastro*/
+    #link_cadastro {
+        top: -3vh;
+        float:right;
+    }
+       #toggle {
+        padding-bottom: 3.5vw;
+    }
+}
+@media screen and (min-height: 450px) {
+    /*formataão do link cadastro*/
+    /*    #link_cadastro {
+            top: 7.5vh;
+            position: fixed;
+        }*/
+    /*formatação da sessao com formulário de busca*/
+    #buscar_txt {
+        margin-left: 1vw;
+        font-size: 0.9em;
+    }
+     #toggle {
+        padding-bottom: 4.5vw;
+    }
+}
+@media screen and (max-width: 400px) {
+    /*formatação da sessao com formulário de busca*/
+    #buscar_txt {
+        font-size: 0.9em;
+    }
+     #toggle {
+        padding-bottom: 5vw;
+    }
+}
+@media screen and (max-width: 350px) {
+    /*formatação da sessao com formulário de busca*/
+    #buscar_txt {
+        width: 60%;
+    }
+}
