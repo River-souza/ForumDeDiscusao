@@ -123,7 +123,7 @@
 
                 <p>
 
-                    <del>Macro Dinasttia&copy;2015 </del>
+                    <del>MichaelDydean&copy;2023</del>
 
                 </p>
 
